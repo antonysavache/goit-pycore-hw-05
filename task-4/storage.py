@@ -1,5 +1,7 @@
 contacts = {}
 
+leave_commands = ['close', 'exit', 'vihod']
+
 exceptions = {
     'LACK_OF_ARGUMENTS': 'This error might happen when you wrote wrong arguments',
     'LACK_OF_RECORDS': 'This error might happen when contacts dict is empty',

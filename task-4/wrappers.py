@@ -25,7 +25,6 @@ def phone_handler(func):
 
 
 def edit_handler(func):
-
     def inner(*args, **kwargs):
         print(args)
         err_test_cases = [

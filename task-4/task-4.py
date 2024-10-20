@@ -1,9 +1,6 @@
 from shared.utils import parse_input
 from wrappers import phone_handler, edit_handler
-from storage import contacts
-
-leave_commands = ['close', 'exit', 'vihod']
-
+from storage import contacts, leave_commands
 
 def exit():
     print("Good bye!")
