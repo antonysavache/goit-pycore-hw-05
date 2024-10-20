@@ -21,10 +21,10 @@ def caching_fibonacci():
 
 fib = caching_fibonacci()
 
-print(fib(-3))
 print(fib(11))
 print(fib(12))
 print(fib(10))
+print(fib(11))
 
 
 
